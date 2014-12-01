@@ -7,9 +7,9 @@ public class Tabla {
     public Tabla() {
 
     }
-
+     //Aitor mariquitilla
     public int pedirDato() {
-        String d = JOptionPane.showInputDialog("Introduzca un numero: ");
+        String d = JOptionPane.showInputDialog("Introduzca un numero por favor: ");
         int dato = Integer.parseInt(d);
         return dato;
     }
